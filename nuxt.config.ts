@@ -3,12 +3,14 @@ export default defineNuxtConfig({
     head: {
       title: 'App',
       meta: [
-        { name: 'description', content: 'app description...' }
+        {name: 'description', content: '...'}
       ]
     }
   },
   modules: [
+    '@hypernym/nuxt-gsap',
     '@nuxt/image',
+    '@tresjs/nuxt',
     '@unocss/nuxt'
   ]
-});
+})
